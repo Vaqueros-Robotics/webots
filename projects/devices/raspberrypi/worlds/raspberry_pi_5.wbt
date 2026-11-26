@@ -1,0 +1,48 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/RaspberryPi5.proto"
+
+WorldInfo {
+  title "Raspberry Pi 5"
+}
+Viewpoint {
+  orientation -0.255475 0.105821 0.961007 2.383923
+  position 0.11 -0.11 0.095
+  near 0.005
+}
+Background {
+  skyColor [
+    0.25 0.3 0.38
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction -0.5 0.4 -0.8
+  intensity 2.5
+  castShadows TRUE
+}
+DirectionalLight {
+  direction 0.6 -0.5 -0.4
+  intensity 1.0
+}
+Solid {
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.85 0.85 0.85
+        roughness 0.8
+        metalness 0
+      }
+      geometry Plane {
+        size 0.5 0.5
+      }
+    }
+  ]
+  name "floor"
+  boundingObject Plane {
+    size 0.5 0.5
+  }
+}
+RaspberryPi5 {
+  translation 0 0 0.0018
+}

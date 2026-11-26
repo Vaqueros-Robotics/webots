@@ -1,0 +1,73 @@
+#VRML_SIM R2025a utf8
+# license: Apache License 2.0
+# license url: https://www.apache.org/licenses/LICENSE-2.0
+# keywords: robot/extension
+# Raspberry Pi 5 single-board computer.
+# This is a graphical model that can be extended with solid parts, devices and physics properties.
+
+PROTO RaspberryPi5 [
+  field SFVec3f    translation   0 0 0             # Is `Robot.translation`.
+  field SFRotation rotation      0 0 1 0           # Is `Robot.rotation`.
+  field SFString   name          "Raspberry Pi 5"  # Is `Robot.name`.
+  field SFNode     physics       NULL              # Is `Robot.physics`.
+  field SFString   controller    "<none>"          # Is `Robot.controller`.
+  field SFString   window        "<generic>"       # Is `Robot.window`.
+  field MFNode     extensionSlot []                # Extends the board with meshes, solid parts or devices.
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    children [
+      DEF RASPBERRY_PI_5_SHAPE CadShape {
+        url [
+          "meshes/raspberry_pi_5.obj"
+        ]
+      }
+      Group {
+        children IS extensionSlot
+      }
+    ]
+    name IS name
+    model "Raspberry Pi 5"
+    boundingObject Group {
+      children [
+        DEF PCB_BOX Pose {
+          translation 0 0 0.0008
+          children [
+            Box {
+              size 0.085 0.056 0.0016
+            }
+          ]
+        }
+        DEF PORTS_BOX Pose {
+          translation 0.0349 0.000225 0.0094
+          children [
+            Box {
+              size 0.0212 0.05205 0.0156
+            }
+          ]
+        }
+        DEF GPIO_BOX Pose {
+          translation -0.01 0.0245 0.00585
+          children [
+            Box {
+              size 0.0508 0.00508 0.0085
+            }
+          ]
+        }
+        DEF MICROSD_BOX Pose {
+          translation -0.03425 -0.0005 -0.0009
+          children [
+            Box {
+              size 0.0145 0.012 0.0018
+            }
+          ]
+        }
+      ]
+    }
+    controller IS controller
+    physics IS physics
+    window IS window
+  }
+}

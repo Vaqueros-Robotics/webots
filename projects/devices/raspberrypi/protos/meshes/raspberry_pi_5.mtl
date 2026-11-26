@@ -1,0 +1,244 @@
+# SolidCraft material library
+newmtl PCB
+Kd 0.106 0.541 0.239
+Ns 115
+newmtl Mount_Pad
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl Mount_Pad__2_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl Mount_Pad__3_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl Mount_Pad__4_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl Ethernet_RJ45
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl USB3_Shell
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl USB3_Insert_Bot
+Kd 0.000 0.400 0.800
+Ns 64
+newmtl USB3_Insert_Top
+Kd 0.000 0.400 0.800
+Ns 64
+newmtl USB2_Shell
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl USB2_Insert_Bot
+Kd 0.102 0.106 0.114
+Ns 64
+newmtl USB2_Insert_Top
+Kd 0.102 0.106 0.114
+Ns 64
+newmtl USBC_Shell
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl USBC_Tongue
+Kd 0.102 0.106 0.114
+Ns 64
+newmtl MicroHDMI_0
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl MicroHDMI_1
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl RTC_JST
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl UART_JST
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl Fan_JST
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl PCIe_Body
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl PCIe_Latch
+Kd 0.239 0.169 0.133
+Ns 64
+newmtl MIPI_1_Body
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl MIPI_1_Latch
+Kd 0.239 0.169 0.133
+Ns 64
+newmtl MIPI_0_Body
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl MIPI_0_Latch
+Kd 0.239 0.169 0.133
+Ns 64
+newmtl Pwr_Switch_Body
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl Pwr_Switch_Button
+Kd 0.929 0.902 0.839
+Ns 64
+newmtl MicroSD_Slot
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl BCM2712_Substrate
+Kd 0.090 0.290 0.165
+Ns 115
+newmtl BCM2712_Heatspreader
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl SDRAM_LPDDR4X
+Kd 0.137 0.149 0.161
+Ns 64
+newmtl RP1_Southbridge
+Kd 0.137 0.149 0.161
+Ns 64
+newmtl WiFi_BT_Shield
+Kd 0.784 0.804 0.824
+Ns 190
+newmtl PMIC_DA9091
+Kd 0.137 0.149 0.161
+Ns 64
+newmtl Eth_PHY_IC
+Kd 0.137 0.149 0.161
+Ns 64
+newmtl GPIO_Shroud
+Kd 0.102 0.106 0.114
+Ns 64
+newmtl GPIO_Pin
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__2_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__3_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__4_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__5_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__6_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__7_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__8_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__9_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__10_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__11_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__12_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__13_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__14_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__15_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__16_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__17_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__18_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__19_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__20_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__21_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__22_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__23_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__24_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__25_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__26_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__27_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__28_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__29_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__30_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__31_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__32_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__33_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__34_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__35_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__36_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__37_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__38_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__39_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl GPIO_Pin__40_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl PoE_Shroud
+Kd 0.102 0.106 0.114
+Ns 64
+newmtl PoE_Pin
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl PoE_Pin__2_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl PoE_Pin__3_
+Kd 0.898 0.722 0.259
+Ns 200
+newmtl PoE_Pin__4_
+Kd 0.898 0.722 0.259
+Ns 200
